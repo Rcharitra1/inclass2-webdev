@@ -72,7 +72,7 @@ header div {
 h1 a{
   color:#cf082c;
   font-weight:900;
-  font-family: "Arial Black"
+  font-family: "Arial Black", sans-serif;
 }
 
 nav ul li a{
