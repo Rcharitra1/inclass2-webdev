@@ -272,6 +272,14 @@ main > section{
   .wrap li:first-child::before{
     content: '';
   }
+  .locations{
+    max-width: 800px;
+    top:calc(50% - (200px / 2));
+    margin: auto;
+    position: fixed;
+    left: 0;
+    right: 0;
+  }
 
 }
 
@@ -291,14 +299,7 @@ main > section, main > div:nth-child(2){
 }
 
 
-.locations{
-  max-width: 800px;
-  top:calc(50% - (200px / 2));
-  margin: auto;
-  position: fixed;
-  left: 0;
-  right: 0;
-}
+
 
 
 
