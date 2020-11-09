@@ -54,6 +54,7 @@ h1, .fas{
   color:black;
 }
 
+
 .fab{
   padding:4px ;
   border-right: 5px solid #fe6b3b;
@@ -71,6 +72,7 @@ header div {
 h1 a{
   color:#cf082c;
   font-weight:900;
+  font-family: "Arial Black"
 }
 
 nav ul li a{
@@ -277,8 +279,8 @@ main > section{
     top:calc(50% - (200px / 2));
     margin: auto;
     position: fixed;
-    left: 0;
-    right: 0;
+    left: 4%;
+    right: 4%;
   }
 
 }
@@ -296,6 +298,11 @@ main > div:nth-child(2) > section{
 main > section, main > div:nth-child(2){
   max-width: 1300px;
   margin: 0 auto;
+}
+
+.locations{
+  left: 0;
+  right: 0;
 }
 
 
